@@ -2,6 +2,11 @@
 
 In this lab, we learned how to make clock dividers from two types of counters.
 
+Team #23
+
+Team Members:
+Ashton Bassett
+
 ## Rubric
 
 | Item | Description | Value |
@@ -15,7 +20,15 @@ In this lab, we learned how to make clock dividers from two types of counters.
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
 
+Because each flip-flop in the chain divides the frequency by 2
+
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
 
+A ring counter goes to all 1s on the first clock cycle only when something in the design or initialization is off
+
 ### 3 - What width of ring counter would you use to get to an output of ~1KHz?
+
+clk/1000
+
+
 
